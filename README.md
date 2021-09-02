@@ -90,3 +90,6 @@ ln -s ~/wmdebian/.config/gtk-2.0 ~/.config/gtk-2.0
 ```sh
 ln -s ~/wmdebian/.config/gtk-3.0 ~/.config/gtk-3.0
 ```
+
+##### Wallpapers
+https://wallpaperaccess.com/low-poly-landscape
