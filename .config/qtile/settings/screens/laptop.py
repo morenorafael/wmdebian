@@ -74,6 +74,7 @@ screen = Screen(
                 discharge_char="",
                 charge_char="",
                 full_char="",
+                unknown_char="",
                 format="{char} {percent:2.0%}",
                 low_percentage=0.2,
                 low_foreground=ocean["red"][0],
@@ -96,7 +97,7 @@ screen = Screen(
                 foreground=ocean["background"],
                 background=ocean["blue"],
                 interface="wlp61s0",
-                format="WiFi: {down} ↓↑ {up}",
+                format="WiFi: {up} ↑↓ {down}",
             ),
             widget.Sep(
                 background=ocean["blue"],
